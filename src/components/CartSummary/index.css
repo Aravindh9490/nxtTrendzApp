@@ -45,6 +45,7 @@
 
 .checkout-button {
   background-color: #0b69ff;
+  width: 100%;
   color: #ffffff;
   font-family: 'Roboto';
   font-size: 12px;
@@ -68,4 +69,26 @@
   .d-lg-none {
     display: none;
   }
+}
+
+.popup-bg {
+  background-color: rgba(254, 254, 254, 0.95);
+  box-shadow: 0px 4px 16px 0px #91c1f7;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trigger-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.close-btn-align {
+  align-self: flex-end;
 }

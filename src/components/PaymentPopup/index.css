@@ -1,0 +1,24 @@
+.ulStyle {
+  list-style: none;
+  text-align: start;
+}
+.orderConform {
+  padding: 20px;
+  text-align: center;
+}
+.paymentOpt {
+  padding: 20px;
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.orderConfirm {
+  background-color: black;
+  color: aliceblue;
+  width: 200px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
